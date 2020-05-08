@@ -24,7 +24,7 @@ from __future__ import print_function
 
 import math
 #from scipy.special import gamma, gammainc, gammaincc
-from gamma_functions import *
+from .gamma_functions import *
 import random
 
 def non_overlapping_template_matching_test(bits):
