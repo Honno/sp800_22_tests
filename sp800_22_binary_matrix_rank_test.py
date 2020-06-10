@@ -24,7 +24,7 @@ from __future__ import print_function
 
 import math
 import copy
-import gf2matrix
+from . import gf2matrix
 
 def binary_matrix_rank_test(bits,M=32,Q=32):
     n = len(bits)
